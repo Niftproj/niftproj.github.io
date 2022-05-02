@@ -1,1 +1,6 @@
-repo
+# Idea for dynamic website by static site with use of JS.
+
+A JS File for blog. Enter only name of file and it will show the contents in html file, it load in runtime
+like, a text file is in "x" folder and it will load that byy url
+
+# Primary color: #00B432 [GREEN FAMILY]

@@ -1,0 +1,145 @@
+/* File belongs to Nift* Project */
+
+#niftBody
+{
+    background: #00B432;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.niftNavigatorPanelOuter
+{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+}
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Nift* BrandView */
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftBrandView
+{
+    width: max-content;
+    height: 100%;
+    margin-right: 15px;
+}
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftBrandView > .niftBrandViewInner
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftBrandView > .niftBrandViewInner > .niftBrand
+{
+    max-height: 35px;
+}
+
+/* .niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftBrandView > .niftBrandViewInner > .niftBrand::after
+{
+    display: block;
+    content: '*';
+    font-size: 60px;
+    color: #ffffff;
+} */
+
+/* Nift* LinksView */
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftLinksView
+{
+    margin-left: 15px;
+    width: max-content;
+    height: 100%;
+}
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftLinksView > .niftLinksViewInner
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftLinksView > .niftLinksViewInner > .niftLinksViewListGroup
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftLinksView > .niftLinksViewInner > .niftLinksViewListGroup > .niftLinkViewList
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftLinksView > .niftLinksViewInner > .niftLinksViewListGroup > .niftLinkViewList:first-child
+{
+    margin-left: 0;
+}
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftLinksView > .niftLinksViewInner > .niftLinksViewListGroup > .niftLinkViewList:last-child
+{
+    margin-right: 0;
+}
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftLinksView > .niftLinksViewInner > .niftLinksViewListGroup > .niftLinkViewList > a
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.8;
+    padding: 10px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    height: fit-content;
+    transition: all 0.2s ease;
+}
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftLinksView > .niftLinksViewInner > .niftLinksViewListGroup > .niftLinkViewList > a:hover
+{
+    box-shadow: inset 0 0 0 3px #00B432, inset 0 0 0 6px rgba(255, 255, 255, 0.4);
+}
+
+.niftNavigatorPanelOuter > .niftNavigatorPanelInner > .niftLinksView > .niftLinksViewInner > .niftLinksViewListGroup > .niftLinkViewList > a:active
+{
+    box-shadow: inset 0 0 0 3px #00B432;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
